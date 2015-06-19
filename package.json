@@ -1,0 +1,24 @@
+{
+  "name": "browserify-gulp-react-demo",
+  "version": "0.0.1",
+  "description": "A working demo of CSS Modules using browserify, react and gulp",
+  "scripts": {
+    "start": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jonnyscholes/browserify-gulp-react-demo.git"
+  },
+  "author": "Jonny Scholes",
+  "license": "MIT",
+  "devDependencies": {
+    "browserify": "^10.2.3",
+    "css-modulesify": "^0.2.3",
+    "gulp": "^3.9.0",
+    "reactify": "^1.1.1",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "dependencies": {
+    "react": "^0.13.3"
+  }
+}
