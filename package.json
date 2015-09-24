@@ -13,12 +13,17 @@
   "license": "MIT",
   "devDependencies": {
     "browserify": "^10.2.3",
-    "css-modulesify": "^0.2.3",
+    "css-modulesify": "^0.8.0",
     "gulp": "^3.9.0",
+    "postcss-modules-extract-imports": "0.0.6",
+    "postcss-modules-scope": "0.0.8",
+    "postcss-simple-vars": "0.2.4",
     "reactify": "^1.1.1",
-    "vinyl-source-stream": "^1.1.0"
+    "vinyl-source-stream": "^1.1.0",
+    "doiuse": "^1.0.1"
   },
   "dependencies": {
+    "postcss-modules-local-by-default": "0.0.12",
     "react": "^0.13.3"
   }
 }
